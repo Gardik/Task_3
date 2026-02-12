@@ -1,4 +1,4 @@
-package UserAuthorization;
+package userauthorization;
 
 public class RegisterUser {
     private String email;

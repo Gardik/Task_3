@@ -142,17 +142,7 @@
                     <systemPropertyVariables>
 
                         <allure.results.directory>${project.build.directory}/allure-results</allure.results.directory>
-
-
-                        <browser>${browser}</browser>
-                        <driver.version>${driver.version}</driver.version>
-                        <webdriver.yandex.bin>${webdriver.yandex.bin}</webdriver.yandex.bin>
-
-                        <!-- (опционально) если будешь использовать этот ключ -->
-                        <webdriver.yandex.driver.version>${webdriver.yandex.driver.version}</webdriver.yandex.driver.version>
                     </systemPropertyVariables>
-
-
                     <argLine>
                         -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
                     </argLine>

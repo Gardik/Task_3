@@ -11,7 +11,7 @@ import org.junit.jupiter.params.provider.ValueSource;
 import org.openqa.selenium.WebDriver;
 
 import pages.*;
-import UserAuthorization.RegisterUser;
+import userauthorization.RegisterUser;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 

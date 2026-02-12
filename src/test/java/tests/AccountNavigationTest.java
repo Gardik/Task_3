@@ -1,6 +1,6 @@
 package tests;
 
-import UserAuthorization.RegisterUser;
+import userauthorization.RegisterUser;
 import config.ApiUser;
 import drivers.DriverFactory;
 import io.qameta.allure.Description;

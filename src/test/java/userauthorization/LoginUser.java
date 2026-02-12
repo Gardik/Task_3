@@ -1,4 +1,4 @@
-package UserAuthorization;
+package userauthorization;
 
 public class LoginUser {
     private String email;

@@ -1,7 +1,7 @@
 package config;
 
-import UserAuthorization.LoginUser;
-import UserAuthorization.RegisterUser;
+import userauthorization.LoginUser;
+import userauthorization.RegisterUser;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
